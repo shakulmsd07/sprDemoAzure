@@ -12,7 +12,7 @@ public class SprDemoAzureApplication {
 	@GetMapping("/message")
 	public String message() {
 		
-		return "congrats!your app is deployed successfully in azure";
+		return "congrats!you are app is deployed successfully in azure";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SprDemoAzureApplication.class, args);
