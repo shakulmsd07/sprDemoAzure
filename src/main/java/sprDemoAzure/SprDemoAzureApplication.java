@@ -12,7 +12,7 @@ public class SprDemoAzureApplication {
 	@GetMapping("/message")
 	public String message() {
 		
-		return "congrats your application runnung successfully";
+		return "congrats your application running successfully";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(SprDemoAzureApplication.class, args);
